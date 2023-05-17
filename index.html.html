@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <table>
+        <form>
+            <tr>
+            <td><label> First name</label></td>
+            <td><abbr title="enter your name"><input type="text" name="fn" placeholder="enter your firstname"></abbr><br></td></tr>
+            <tr>
+            <td><label>Last name</label></td>
+            <td><abbr title="enter lastname"><input type="text" name="fn" placeholder="enter your lastname"></abbr><br></td></tr>
+            <tr>
+            <td><label>Date of birth</label></td>
+            <td><input type="date" name="dt" placeholder="Date of birth"><br></td></tr>
+            <tr>
+            <td><label>Email id</label></td>
+            <td><abbr title="enter mail id"><input type="email" name="em" placeholder="email id"></abbr><br></td></tr>
+            <tr>
+            <td><label>Mobile number</label></td>
+            <td><abbr title="enter mobile no"><input type="number" name="no" placeholder="enter Mobile number"></abbr><br></td></tr>
+            <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" id="Male" name="Gender" value="Male"> Male
+            <input type="radio" id="Female" name="Gender" value="Female">Female <br></td></tr>
+            <tr>
+            <td><label>Address</label></td>
+            <td><abbr title="enter address"><input type="text" name="ad" placeholder="Address"></abbr><br></td></tr>
+            <tr>
+            <td><label>City</label></td>
+            <td><input type="text" name="ci" placeholder="enter city"><br></td></tr>
+            <tr>
+            <td><label>Pin code</label></td>
+            <td><input type="number" name="pin" placeholder="enter pin"><br></td></tr>
+            <tr>
+            <td><label>state</label></td>
+            <td><input type="text" name="st" placeholder="enter state"><br></td></tr>
+            <tr>
+            <td><label>Country</label></td>
+            <td><input type="text" name="co" placeholder="enter country"><br></td></tr>
+            <tr>
+            <td><label>Hobbies</label></td>
+            <td><input type="checkbox" name="ch" value="reading">Reading
+            <input type="checkbox" name="ch" value="drawing">drawing
+            <input type="checkbox" name="ch" value="singing">Singing <br>
+            <input type="checkbox" name="ch" value="dancing">Dancing
+            <input type="checkbox" name="ch" value="others">others
+            <input type="text" name="ot" ><br></td></tr>
+            <tr>
+            <td><label>Qualification</label></td>
+            <td>
+            <table>
+                <tr>
+                    <th>Sl no</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Class X</th>
+                    <th><input type="text" name="bo"></th>
+                    <th><input type="text" name="pe"></th>
+                    <th><input type="text" name="yp"></th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Class XII</th>
+                    <th><input type="text" name="bo"></th>
+                    <th><input type="text" name="pe"></th>
+                    <th><input type="text" name="yp"></th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Graduation</th>
+                    <th><input type="text" name="bo"></th>
+                    <th><input type="text" name="pe"></th>
+                    <th><input type="text" name="yp"></th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Masters</th>
+                    <th><input type="text" name="bo"></th>
+                    <th><input type="text" name="pe"></th>
+                    <th><input type="text" name="yp"></th>
+                </tr></td>
+            </table>
+            <label>Course applied for</label>
+            <select name="course">
+                <option value="CS">CS</option>
+                <option value="EC">EC</option>
+                <option value="EEE">EEE</option>
+                <option value="Civil">Civil</option>
+                <option value="Mech">Mech</option>
+            </select><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+        </form>
+        </table>
+    </body>
+</html>
